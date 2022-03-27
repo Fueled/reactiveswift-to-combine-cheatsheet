@@ -36,9 +36,9 @@ This means that all the equivalent given for Combine can be returned as an `AnyP
 | `Lifetime`            | ❌                                                                                                                      |                                                                                                                  |  |
 | `Observer`            | `Subscriber`                                                                                                           | `AnySubscriber` can be used to create a `Subscriber` without creating a type that conforms to the former         |  |
 | `Scheduler`           | `Scheduler`                                                                                                            | `DispatchQueue`, `RunLoop`, `ImmediateScheduler`, `OperationQueue` conforms to `Scheduler`                       |  |
-| `DateScheduler`       | `Scheduler`                                                                                                            | An equivalent called `AtomicValue` exists at https://github.com/Fueled/ios-utilities/blob/v3-support/FueledUtils/Core/Atomic.swift#L19-L46 |  |
-| `Atomic`              | ❌                                                                                                                      |                                                                                                                  |  |
-| `Bag`                 | ❌                                                                                                                      |                                                                                                                  |  |
+| `DateScheduler`       | `Scheduler`                                                                                                            |  |  |
+| `Atomic`              | ❌                                                                                                                      | An equivalent called `AtomicValue` exists at https://github.com/Fueled/ios-utilities/blob/v3-support/FueledUtils/Core/Atomic.swift#L19-L46 |  |
+| `Bag`                 | ❌                                                                                                                      |  |  |
 
 ### Other
 
